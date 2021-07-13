@@ -1,7 +1,8 @@
 # heirarchy-array-iteration
 
 
-```import {isEmpty} from 'lodash';
+```
+import {isEmpty} from 'lodash';
 
 const flattenNestedArray = (arr, keyIdentifier) => {
   let flatArray = [];
@@ -17,6 +18,6 @@ const flattenNestedArray = (arr, keyIdentifier) => {
   });
   return flatArray;
 };
-
 export default flattenNestedArray;
+
 ```
