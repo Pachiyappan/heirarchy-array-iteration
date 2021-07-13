@@ -42,7 +42,7 @@ flatenSubAccounts = (r, a) => {
       }
       return r;
   }
-  ```
   
   data.reduce(flatenSubAccounts , []);
+  ```
 
